@@ -36,6 +36,6 @@ The project site will normally be available at:
 ## Content and security notes
 
 - This repository and Pages content are **public**. Do not commit private app source, keys, signing material, user data, or secrets.
-- The AhaBrain support page currently directs users to **public GitHub Issues**; it warns users not to share personal information. Consider setting up a private support email before submitting an App Store version.
-- Do **not** use this website as the App Store privacy policy URL until a real privacy policy has been prepared and verified against the app's actual data processing and integrated SDKs.
+- The AhaBrain support page now provides direct email contact, using the developer contact address already published on the owner's other public websites. Confirm that the mailbox is actively monitored before submitting an App Store version.
+- Do **not** use this website as the App Store privacy policy URL until a separate, accurate policy has been prepared and verified against the released app's actual data processing and integrated SDKs. Apple requires a distinct Privacy Policy URL.
 - This site does not assert medical or clinically proven cognitive benefits.
