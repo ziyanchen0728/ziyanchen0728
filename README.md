@@ -4,9 +4,9 @@ This branch (`websites`) is the **only GitHub Pages publishing source** for this
 
 ## Hosted apps
 
-| App | Directory | Homepage | Support |
-| --- | --- | --- | --- |
-| 灵光大脑 / AhaBrain | [`ahabrain/`](./ahabrain/) | [Homepage](./ahabrain/index.html) | [Support](./ahabrain/support.html) |
+| App | Directory | Homepage | Support | Privacy |
+| --- | --- | --- | --- | --- |
+| 灵光大脑 / AhaBrain | [`ahabrain/`](./ahabrain/) | [Homepage](./ahabrain/index.html) | [Support](./ahabrain/support.html) | [Privacy policy](./ahabrain/privacy.html) |
 
 AhaBrain supports 简体中文、繁體中文、English、日本語、한국어 through a website language selector.
 
@@ -23,6 +23,7 @@ The project site will normally be available at:
 - Hub: `https://ziyanchen0728.github.io/ziyanchen0728/`
 - AhaBrain: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/`
 - AhaBrain support: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/support.html`
+- AhaBrain privacy: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/privacy.html`
 
 **Important:** These are expected GitHub Pages URLs, not evidence that deployment is enabled. Verify the real published links before entering them in App Store Connect.
 
@@ -37,5 +38,5 @@ The project site will normally be available at:
 
 - This repository and Pages content are **public**. Do not commit private app source, keys, signing material, user data, or secrets.
 - The AhaBrain support page now provides direct email contact, using the developer contact address already published on the owner's other public websites. Confirm that the mailbox is actively monitored before submitting an App Store version.
-- Do **not** use this website as the App Store privacy policy URL until a separate, accurate policy has been prepared and verified against the released app's actual data processing and integrated SDKs. Apple requires a distinct Privacy Policy URL.
+- A five-language privacy policy is provided at `ahabrain/privacy.html`, drafted from a source review of local game history, nickname/avatar, local notifications, optional legacy step access, StoreKit, and support email. **Before publishing the app, verify that the signed release build and App Store privacy disclosures match the policy, including all embedded third-party SDKs.**
 - This site does not assert medical or clinically proven cognitive benefits.
