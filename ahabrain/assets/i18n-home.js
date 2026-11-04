@@ -34,7 +34,8 @@ window.AhaBrainI18n={
     "footerSupport": "技术支持",
     "footerFAQ": "常见问题",
     "pageTitle": "灵光大脑 AhaBrain — 越思考，越有灵光",
-    "pageDesc": "灵光大脑 AhaBrain：趣味益智游戏、脑力训练计划与成长记录。"
+    "pageDesc": "灵光大脑 AhaBrain：趣味益智游戏、脑力训练计划与成长记录。",
+    "footerPrivacy": "隐私政策"
   },
   "zh-TW": {
     "brandSub": "靈光大腦",
@@ -71,7 +72,8 @@ window.AhaBrainI18n={
     "footerSupport": "技術支援",
     "footerFAQ": "常見問題",
     "pageTitle": "靈光大腦 AhaBrain — 越思考，越有靈光",
-    "pageDesc": "靈光大腦 AhaBrain：益智遊戲、腦力訓練計畫與成長紀錄。"
+    "pageDesc": "靈光大腦 AhaBrain：益智遊戲、腦力訓練計畫與成長紀錄。",
+    "footerPrivacy": "隱私權政策"
   },
   "en": {
     "brandSub": "Brain Training",
@@ -108,7 +110,8 @@ window.AhaBrainI18n={
     "footerSupport": "Support",
     "footerFAQ": "FAQ",
     "pageTitle": "AhaBrain — Think More. Shine Brighter.",
-    "pageDesc": "AhaBrain brings together brain games, training plans, and progress tracking."
+    "pageDesc": "AhaBrain brings together brain games, training plans, and progress tracking.",
+    "footerPrivacy": "Privacy Policy"
   },
   "ja": {
     "brandSub": "脳トレ",
@@ -145,7 +148,8 @@ window.AhaBrainI18n={
     "footerSupport": "サポート",
     "footerFAQ": "よくある質問",
     "pageTitle": "AhaBrain — 考えるほど、ひらめく。",
-    "pageDesc": "AhaBrain：脳トレゲーム、トレーニングプラン、成長記録。"
+    "pageDesc": "AhaBrain：脳トレゲーム、トレーニングプラン、成長記録。",
+    "footerPrivacy": "プライバシーポリシー"
   },
   "ko": {
     "brandSub": "두뇌 훈련",
@@ -182,6 +186,7 @@ window.AhaBrainI18n={
     "footerSupport": "고객 지원",
     "footerFAQ": "자주 묻는 질문",
     "pageTitle": "AhaBrain — 생각할수록 더 빛나는 두뇌",
-    "pageDesc": "AhaBrain: 두뇌 게임, 훈련 계획, 성장 기록을 한곳에서."
+    "pageDesc": "AhaBrain: 두뇌 게임, 훈련 계획, 성장 기록을 한곳에서.",
+    "footerPrivacy": "개인정보 처리방침"
   }
 };
