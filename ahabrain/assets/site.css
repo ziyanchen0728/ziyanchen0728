@@ -12,3 +12,23 @@
 .support-legal a{color:#5e44bb}
 .appstore-support-grid{align-items:start}
 @media(max-width:760px){.support-legal{margin:-28px 0 65px;padding:24px}.support-action{display:flex;justify-content:center}.appstore-support-grid{gap:14px}}
+
+/* Legal / privacy policy page */
+.legal-main{padding-bottom:70px}
+.legal-main .page-head{padding-bottom:36px}
+.legal-date{font-size:13px!important;margin-top:14px!important;color:#80768d!important}
+.privacy-summary{display:flex;gap:20px;padding:27px 30px;border:1px solid #e5ddfb;border-radius:24px;background:linear-gradient(115deg,#f0eaff,#f9f7ff);margin-bottom:22px}
+.privacy-symbol{display:grid;place-items:center;width:53px;height:53px;min-width:53px;border-radius:17px;background:#dcd0fd;color:#684bcc;font-size:30px}
+.privacy-summary h2{margin:0 0 7px;font-size:20px}.privacy-summary p{color:#6c6086;margin:0;font-size:14px;line-height:1.8}
+.legal-grid{display:grid;grid-template-columns:minmax(0,1fr) 248px;gap:20px;align-items:start}
+.legal-article{padding:40px}.legal-article section+section{border-top:1px solid var(--line);padding-top:27px;margin-top:27px}
+.legal-article h2{font-size:20px;margin:0 0 12px;letter-spacing:-.02em}
+.legal-article section p{margin:0;color:#625b74;font-size:14px;line-height:2}
+.legal-side{position:sticky;top:25px}
+.legal-side .panel{padding:23px}.legal-side h2{font-size:17px!important;margin-bottom:12px}
+.legal-side-link{display:block;padding:10px 0;border-top:1px solid var(--line);font-size:14px;text-decoration:none;color:#5c4cac}
+.legal-side-link:hover{text-decoration:underline}
+.legal-contact{margin-top:33px;padding:22px;background:#f5f1ff;border-radius:19px}
+.legal-contact h3{font-size:18px;margin:5px 0 8px}.legal-contact .support-email{font-size:16px}
+@media(max-width:850px){.legal-grid{grid-template-columns:1fr}.legal-side{position:static}.legal-side .panel{margin-top:0}}
+@media(max-width:500px){.privacy-summary{padding:21px 18px;gap:12px}.privacy-symbol{width:39px;height:39px;min-width:39px;font-size:22px}.legal-article{padding:24px 20px}.legal-article h2{font-size:18px}.legal-main{padding-bottom:45px}}
