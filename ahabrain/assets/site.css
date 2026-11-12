@@ -24,6 +24,8 @@
 .legal-article{padding:40px}.legal-article section+section{border-top:1px solid var(--line);padding-top:27px;margin-top:27px}
 .legal-article h2{font-size:20px;margin:0 0 12px;letter-spacing:-.02em}
 .legal-article section p{margin:0;color:#625b74;font-size:14px;line-height:2}
+.legal-article section p+p{margin-top:12px}
+.footer-links{flex-wrap:wrap}
 .legal-side{position:sticky;top:25px}
 .legal-side .panel{padding:23px}.legal-side h2{font-size:17px!important;margin-bottom:12px}
 .legal-side-link{display:block;padding:10px 0;border-top:1px solid var(--line);font-size:14px;text-decoration:none;color:#5c4cac}

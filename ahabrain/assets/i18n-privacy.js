@@ -19,7 +19,7 @@ window.AhaBrainI18n={
     "s4Title": "4. 购买与订阅",
     "s4Body": "月度、年度及永久会员购买使用 Apple StoreKit。App 会读取 Apple 验证的商品与交易状态，以显示价格、开通权益或恢复购买。支付卡片及账单结算由 Apple 处理，开发者不会通过本 App 获取你的完整银行卡信息。购买、续订、取消和退款受 Apple 的相应条款约束。",
     "s5Title": "5. 反馈、网站及第三方",
-    "s5Body": "App 内反馈通过 iOS 系统分享功能，由你自行选择接收方和内容。若你主动发邮件求助，我们会接收邮件地址、邮件内容及你提供的附件，用于回复和处理请求。官网使用 GitHub Pages 托管，访问网站时 GitHub 可能处理必要的网络技术信息；本网站只使用浏览器本地存储来记住语言选择。Apple 依其政策处理 App Store 与 StoreKit 服务所需的数据。 当你主动导出或分享训练数据时，导出文件可能包含昵称、游戏与训练历史，以及保留的旧版活动步数记录；请在分享前确认内容和接收方。",
+    "s5Body": "提交反馈时，你填写的类型、内容和选填联系邮箱会通过反馈服务发送给我们，用于处理和回复。联系邮箱不会公开。若你主动发邮件求助，我们会接收邮件地址、邮件内容及你提供的附件，用于回复和处理请求。官网使用 GitHub Pages 托管，访问网站时 GitHub 可能处理必要的网络技术信息；本网站只使用浏览器本地存储来记住语言选择。Apple 依其政策处理 App Store 与 StoreKit 服务所需的数据。 当你主动导出或分享训练数据时，导出文件可能包含昵称、游戏与训练历史，以及保留的旧版活动步数记录；请在分享前确认内容和接收方。",
     "s6Title": "6. 用途、保存及安全",
     "s6Body": "本地数据用于恢复游戏、显示训练历史和成长趋势、保存设置及实现你开启的功能。上述训练数据通常保留至你在 App 中重置相应记录或移除 App；某些设置、其他独立记录及设备备份可能不会被单次重置清除。反馈邮件仅在处理请求及履行适用义务所需的期限内保留。我们不会出售通过支持邮箱收到的个人信息。",
     "s7Title": "7. 你的选择和数据请求",
@@ -35,7 +35,10 @@ window.AhaBrainI18n={
     "quickGithub": "GitHub 隐私声明",
     "footerHome": "返回官网",
     "pageTitle": "隐私政策 — 灵光大脑 AhaBrain",
-    "pageDesc": "灵光大脑 AhaBrain 隐私政策：本地训练数据、设备权限、购买和删除请求说明。"
+    "pageDesc": "灵光大脑 AhaBrain 隐私政策：本地训练数据、设备权限、购买和删除请求说明。",
+    "appleSignInTitle": "Apple 登录",
+    "appleSignInBody": "选择 Apple 登录时，应用会在本机钥匙串保存 Apple 提供的账号标识。你可以在「我的」的「设置」中选择「注销账号」来删除该标识，并前往 Apple 管理授权。",
+    "quickTerms": "用户协议"
   },
   "en": {
     "brandSub": "Brain Training",
@@ -57,7 +60,7 @@ window.AhaBrainI18n={
     "s4Title": "4. Purchases and subscriptions",
     "s4Body": "Monthly and annual subscriptions and the lifetime purchase use Apple StoreKit. The app reads Apple-verified product and transaction status to display prices, grant access, or restore purchases. Apple handles payment cards and billing; the developer does not obtain your complete card details through the app. Purchases, renewals, cancellations, and refunds are subject to Apple's applicable terms.",
     "s5Title": "5. Feedback, website, and third parties",
-    "s5Body": "In-app feedback uses the iOS share sheet, so you choose what to share and with whom. If you email support, we receive your email address, message, and any attachments you send, and use them to respond and handle the request. The website is hosted by GitHub Pages; GitHub may process technical access information under its policies. The website uses browser local storage only to remember your language selection. Apple handles App Store and StoreKit service data under its policies. If you choose to export or share training data, the file may include your nickname, game and training history, and retained legacy activity or step-count records. Review the contents and recipient before sharing.",
+    "s5Body": "When you submit feedback, the category, message and optional contact email you enter are sent to us through our feedback service so we can process and reply to your feedback. Your contact email is kept private. If you email support, we receive your email address, message, and any attachments you send, and use them to respond and handle the request. The website is hosted by GitHub Pages; GitHub may process technical access information under its policies. The website uses browser local storage only to remember your language selection. Apple handles App Store and StoreKit service data under its policies. If you choose to export or share training data, the file may include your nickname, game and training history, and retained legacy activity or step-count records. Review the contents and recipient before sharing.",
     "s6Title": "6. Purposes, retention, and security",
     "s6Body": "Local information supports game restoration, training history, progress views, preferences, and optional features. These records are normally kept until you reset the relevant data in the app or remove the app. A single reset may not erase all settings, separate records, or device backups. Support emails are retained only as needed to address requests and meet applicable obligations. We do not sell personal information received through support email.",
     "s7Title": "7. Your choices and data requests",
@@ -73,7 +76,10 @@ window.AhaBrainI18n={
     "quickGithub": "GitHub Privacy Statement",
     "footerHome": "Official Website",
     "pageTitle": "Privacy Policy — AhaBrain",
-    "pageDesc": "AhaBrain Privacy Policy: local data, permissions, StoreKit purchases, retention, and data requests."
+    "pageDesc": "AhaBrain Privacy Policy: local data, permissions, StoreKit purchases, retention, and data requests.",
+    "appleSignInTitle": "Sign in with Apple",
+    "appleSignInBody": "If you sign in with Apple, the app saves the account identifier supplied by Apple in this device’s Keychain. To remove it, open Settings from My Profile and select Delete account. You can manage the authorization with Apple.",
+    "quickTerms": "User agreement"
   },
   "zh-TW": {
     "brandSub": "靈光大腦",
@@ -95,7 +101,7 @@ window.AhaBrainI18n={
     "s4Title": "4. 購買與訂閱",
     "s4Body": "月度、年度訂閱及終身購買使用 Apple StoreKit。App 會讀取經 Apple 驗證的商品和交易狀態，用於顯示價格、開通權益或恢復購買。付款卡片與帳務由 Apple 處理，開發者不會透過 App 取得你的完整卡片資料。購買、續訂、取消和退款依 Apple 適用條款處理。",
     "s5Title": "5. 意見回饋、網站與第三方",
-    "s5Body": "App 內回饋使用 iOS 系統分享功能，由你決定分享的內容及對象。若你主動寄送支援郵件，我們會收到電子郵件地址、訊息與你提供的附件，僅用於回覆和處理請求。官方網站由 GitHub Pages 託管，GitHub 可能依其政策處理必要的技術存取資訊。網站僅使用瀏覽器本機儲存來記住語言選擇。App Store 與 StoreKit 相關資料由 Apple 依其政策處理。 當你主動匯出或分享訓練資料時，匯出檔案可能包含暱稱、遊戲與訓練紀錄，以及保留的舊版活動步數紀錄；分享前請確認內容與接收對象。",
+    "s5Body": "提交意見回饋時，你填寫的類型、內容和選填的聯絡電子郵件會透過回饋服務傳送給我們，用於處理及回覆。聯絡電子郵件不會公開。若你主動寄送支援郵件，我們會收到電子郵件地址、訊息與你提供的附件，僅用於回覆和處理請求。官方網站由 GitHub Pages 託管，GitHub 可能依其政策處理必要的技術存取資訊。網站僅使用瀏覽器本機儲存來記住語言選擇。App Store 與 StoreKit 相關資料由 Apple 依其政策處理。 當你主動匯出或分享訓練資料時，匯出檔案可能包含暱稱、遊戲與訓練紀錄，以及保留的舊版活動步數紀錄；分享前請確認內容與接收對象。",
     "s6Title": "6. 用途、保存與安全",
     "s6Body": "本機資料用於繼續遊戲、顯示訓練歷史和成長趨勢、保存偏好與提供可選功能。這些資料通常會保存至你重置相關紀錄或移除 App；單次重置不一定清除所有設定、獨立紀錄或裝置備份。支援郵件僅在處理請求及履行適用義務所需期間保留。我們不會出售透過支援郵件取得的個人資訊。",
     "s7Title": "7. 你的選擇與資料請求",
@@ -111,7 +117,10 @@ window.AhaBrainI18n={
     "quickGithub": "GitHub 隱私權聲明",
     "footerHome": "返回官網",
     "pageTitle": "隱私權政策 — 靈光大腦 AhaBrain",
-    "pageDesc": "靈光大腦 AhaBrain 隱私權政策：本機訓練資料、系統權限、購買及資料請求。"
+    "pageDesc": "靈光大腦 AhaBrain 隱私權政策：本機訓練資料、系統權限、購買及資料請求。",
+    "appleSignInTitle": "Apple 登入",
+    "appleSignInBody": "選擇使用 Apple 登入時，App 會在本機鑰匙圈儲存 Apple 提供的帳號識別碼。你可以在「我的」的「設定」中選擇「登出賬號」來刪除該識別碼，並前往 Apple 管理授權。",
+    "quickTerms": "使用者協議"
   },
   "ja": {
     "brandSub": "脳トレ",
@@ -133,7 +142,7 @@ window.AhaBrainI18n={
     "s4Title": "4. 購入とサブスクリプション",
     "s4Body": "月額・年額サブスクリプションと買い切り型メンバーシップの購入にはApple StoreKitを使用します。アプリはAppleにより検証された商品情報と取引状態を参照し、価格表示、権限の有効化、購入の復元を行います。決済カードと請求情報はAppleが管理し、開発者がアプリを通じてカード番号全体を取得することはありません。購入、更新、解約、返金にはAppleの適用条件が適用されます。",
     "s5Title": "5. フィードバック、Webサイトと第三者",
-    "s5Body": "アプリ内のフィードバックはiOSの共有機能を利用し、共有する内容と送信先をご自身で選択できます。サポートにメールを送った場合、メールアドレス、本文、添付ファイルを受け取り、お問い合わせへの対応に使用します。公式サイトはGitHub Pagesで公開しており、GitHubが必要なアクセス情報を同社のポリシーに従って処理する場合があります。サイトは言語設定を記憶するためにのみブラウザのローカルストレージを使用します。App StoreとStoreKitのサービスデータはAppleのポリシーに従って扱われます。 トレーニングデータをご自身で書き出し・共有する場合、ファイルにはニックネーム、ゲームやトレーニング履歴、過去の活動・歩数記録が含まれる場合があります。共有前に内容と送信先をご確認ください。",
+    "s5Body": "アプリ内でフィードバックを送信すると、入力した種類、内容、連絡先メールアドレス（任意）がフィードバックサービスを通じて開発者に送られます。これらの情報は対応と返信に使用され、連絡先メールアドレスは公開されません。サポートにメールを送った場合、メールアドレス、本文、添付ファイルを受け取り、お問い合わせへの対応に使用します。公式サイトはGitHub Pagesで公開しており、GitHubが必要なアクセス情報を同社のポリシーに従って処理する場合があります。サイトは言語設定を記憶するためにのみブラウザのローカルストレージを使用します。App StoreとStoreKitのサービスデータはAppleのポリシーに従って扱われます。 トレーニングデータをご自身で書き出し・共有する場合、ファイルにはニックネーム、ゲームやトレーニング履歴、過去の活動・歩数記録が含まれる場合があります。共有前に内容と送信先をご確認ください。",
     "s6Title": "6. 利用目的、保存期間、安全性",
     "s6Body": "端末内の情報は、ゲーム再開、履歴や進捗の表示、設定の保存、ユーザーが選択した機能の提供に使用します。これらの情報は通常、関連データをアプリ内でリセットするか、アプリを削除するまで保存されます。一度のリセットでは、すべての設定、別管理の記録、端末のバックアップが削除されない場合があります。サポートメールはお問い合わせ対応と適用される義務に必要な期間に限り保存します。サポートメールで取得した個人情報を販売することはありません。",
     "s7Title": "7. ご自身の選択とデータに関するご請求",
@@ -149,7 +158,10 @@ window.AhaBrainI18n={
     "quickGithub": "GitHubのプライバシーに関する声明",
     "footerHome": "公式サイトへ",
     "pageTitle": "プライバシーポリシー — AhaBrain",
-    "pageDesc": "AhaBrainのプライバシーポリシー：端末内データ、権限、購入、保存とデータに関する請求。"
+    "pageDesc": "AhaBrainのプライバシーポリシー：端末内データ、権限、購入、保存とデータに関する請求。",
+    "appleSignInTitle": "Appleでサインインする",
+    "appleSignInBody": "Appleでサインインすると、AppはAppleから提供されたアカウント識別子を端末のキーチェーンに保存します。識別子を削除するには、マイプロフィールの「設定」で「アカウントを削除」を選択してください。Appleアカウントの設定から連携の許可を管理できます。",
+    "quickTerms": "利用規約"
   },
   "ko": {
     "brandSub": "두뇌 훈련",
@@ -171,7 +183,7 @@ window.AhaBrainI18n={
     "s4Title": "4. 구매 및 구독",
     "s4Body": "월간·연간 구독과 평생 이용권 구매는 Apple StoreKit을 통해 처리합니다. 앱은 Apple이 검증한 상품 및 거래 상태를 확인하여 가격을 표시하고 이용 권한을 부여하거나 구매를 복원합니다. 결제 카드와 청구 정보는 Apple이 처리하며 개발자는 앱을 통해 전체 카드 번호를 받지 않습니다. 구매, 갱신, 취소 및 환불에는 Apple의 해당 약관이 적용됩니다.",
     "s5Title": "5. 피드백, 웹사이트 및 제3자",
-    "s5Body": "앱 내 피드백은 iOS 공유 기능을 사용하므로 공유할 내용과 수신 대상을 사용자가 선택합니다. 고객 지원에 이메일을 보내면 발신 주소, 메시지 및 사용자가 첨부한 파일을 받아 문의에 답변하고 처리하는 데 사용합니다. 공식 웹사이트는 GitHub Pages에서 호스팅되며, GitHub는 자체 정책에 따라 필요한 접속 기술 정보를 처리할 수 있습니다. 웹사이트는 언어 선택을 기억하기 위한 용도로만 브라우저 로컬 저장소를 사용합니다. App Store와 StoreKit 서비스 관련 데이터는 Apple의 정책에 따라 처리됩니다. 훈련 데이터를 직접 내보내거나 공유할 경우 파일에 닉네임, 게임 및 훈련 기록, 이전 활동 또는 걸음 수 기록이 포함될 수 있습니다. 공유하기 전에 파일 내용과 수신 대상을 확인해 주세요.",
+    "s5Body": "앱에서 피드백을 제출하면 입력한 유형, 내용 및 선택 입력한 연락처 이메일이 피드백 서비스를 통해 개발자에게 전송됩니다. 이 정보는 피드백 처리와 답변에 사용되며, 연락처 이메일은 공개되지 않습니다. 고객 지원에 이메일을 보내면 발신 주소, 메시지 및 사용자가 첨부한 파일을 받아 문의에 답변하고 처리하는 데 사용합니다. 공식 웹사이트는 GitHub Pages에서 호스팅되며, GitHub는 자체 정책에 따라 필요한 접속 기술 정보를 처리할 수 있습니다. 웹사이트는 언어 선택을 기억하기 위한 용도로만 브라우저 로컬 저장소를 사용합니다. App Store와 StoreKit 서비스 관련 데이터는 Apple의 정책에 따라 처리됩니다. 훈련 데이터를 직접 내보내거나 공유할 경우 파일에 닉네임, 게임 및 훈련 기록, 이전 활동 또는 걸음 수 기록이 포함될 수 있습니다. 공유하기 전에 파일 내용과 수신 대상을 확인해 주세요.",
     "s6Title": "6. 사용 목적, 보관 및 보안",
     "s6Body": "기기에 저장된 정보는 게임 재개, 훈련 기록과 성장 추이 표시, 설정 저장 및 사용자가 선택한 기능 제공에 사용됩니다. 이러한 기록은 일반적으로 앱에서 관련 데이터를 초기화하거나 앱을 삭제할 때까지 보관됩니다. 단일 초기화로 모든 설정, 별도 저장된 기록 또는 기기 백업이 삭제되지는 않을 수 있습니다. 고객 지원 이메일은 문의 처리와 관련 의무를 이행하는 데 필요한 기간 동안만 보관합니다. 고객 지원 이메일을 통해 받은 개인정보를 판매하지 않습니다.",
     "s7Title": "7. 사용자의 선택과 데이터 요청",
@@ -187,6 +199,9 @@ window.AhaBrainI18n={
     "quickGithub": "GitHub 개인정보 보호 정책",
     "footerHome": "공식 웹사이트",
     "pageTitle": "개인정보 처리방침 — AhaBrain",
-    "pageDesc": "AhaBrain 개인정보 처리방침: 기기 내 데이터, 권한, 구매, 보관 및 데이터 관련 요청."
+    "pageDesc": "AhaBrain 개인정보 처리방침: 기기 내 데이터, 권한, 구매, 보관 및 데이터 관련 요청.",
+    "appleSignInTitle": "Apple 계정 로그인",
+    "appleSignInBody": "Apple로 로그인하면 앱은 Apple에서 제공한 계정 식별자를 기기의 키체인에 저장합니다. 식별자를 삭제하려면 내 프로필의 설정에서 ‘계정 삭제’를 선택하세요. Apple 계정 설정에서 로그인 권한을 관리할 수 있습니다.",
+    "quickTerms": "이용약관"
   }
 };

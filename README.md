@@ -4,9 +4,9 @@ This branch (`websites`) is the **only GitHub Pages publishing source** for this
 
 ## Hosted apps
 
-| App | Directory | Homepage | Support | Privacy |
-| --- | --- | --- | --- | --- |
-| 灵光大脑 / AhaBrain | [`ahabrain/`](./ahabrain/) | [Homepage](./ahabrain/index.html) | [Support](./ahabrain/support.html) | [Privacy policy](./ahabrain/privacy.html) |
+| App | Directory | Homepage | Support | Privacy | Terms |
+| --- | --- | --- | --- | --- | --- |
+| 灵光大脑 / AhaBrain | [`ahabrain/`](./ahabrain/) | [Homepage](./ahabrain/index.html) | [Support](./ahabrain/support.html) | [Privacy policy](./ahabrain/privacy.html) | [User agreement](./ahabrain/terms.html) |
 
 AhaBrain supports 简体中文、繁體中文、English、日本語、한국어 through a website language selector.
 
@@ -24,6 +24,7 @@ The project site will normally be available at:
 - AhaBrain: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/`
 - AhaBrain support: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/support.html`
 - AhaBrain privacy: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/privacy.html`
+- AhaBrain terms: `https://ziyanchen0728.github.io/ziyanchen0728/ahabrain/terms.html`
 
 **Important:** These are expected GitHub Pages URLs, not evidence that deployment is enabled. Verify the real published links before entering them in App Store Connect.
 
