@@ -52,7 +52,7 @@
       const number = document.createElement("span");
       number.className = "toc-number";
       number.textContent = String(index + 1).padStart(2, "0");
-      const title = heading.textContent.trim().replace(/^\\d+\\.\\s*/, "");
+      const title = heading.textContent.trim().replace(/^[0-9]+[.] +/, "");
       anchor.append(number, document.createTextNode(title));
       nav.appendChild(anchor);
     });
