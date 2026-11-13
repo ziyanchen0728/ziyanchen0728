@@ -260,3 +260,6 @@ html.is-embedded .legal-article section p{font-size:14px;line-height:1.92}
 .skill:nth-child(2) .skill-dot{background:#DFA44E;box-shadow:3px -3px 0 #F7E6C8}
 .skill:nth-child(3) .skill-dot{background:#59B1A5;box-shadow:3px -3px 0 #CDEDE9}
 .skill:nth-child(4) .skill-dot{background:#8E80D9;box-shadow:3px -3px 0 #E5E0FF}
+
+.skill span:last-child{font-size:14px;line-height:1.4}
+@media(max-width:450px){.skill span:last-child{font-size:13px}}
