@@ -263,3 +263,63 @@ html.is-embedded .legal-article section p{font-size:14px;line-height:1.92}
 
 .skill span:last-child{font-size:14px;line-height:1.4}
 @media(max-width:450px){.skill span:last-child{font-size:13px}}
+
+
+/* 2026-11-13: use exactly the native AhaBrain blue-violet palette and app icon. */
+:root{
+  --bg:#F3F6FF;
+  --ink:#29316C;
+  --muted:#747FA3;
+  --purple:#6967F5;
+  --purple-dark:#5044F5;
+  --line:#DEE6F7;
+  --lav:#E2E8FF;
+  --white:#FFFFFF;
+}
+.brand-mark {
+  width:43px;height:43px;
+  padding:0;border-radius:13px;
+  background:transparent;
+  box-shadow:0 4px 11px rgba(68,74,144,.075);
+  overflow:hidden; flex:none;
+}
+.brand-mark img{display:block;width:100%;height:100%;object-fit:cover;border-radius:13px}
+.showcase-feature{background:linear-gradient(120deg,#E0E8FF,#D6DBFF 54%,#EAE9FF)}
+.showcase-app-logo{
+  width:92px;height:92px;min-width:92px;
+  border-radius:25px;object-fit:cover;
+  box-shadow:0 8px 0 rgba(127,140,211,.15),0 16px 28px rgba(72,87,160,.12);
+  transform:rotate(7deg);
+}
+.pill{background:#E8ECFF;border-color:#DCE2FF;color:#514DE0}
+.btn-primary{background:linear-gradient(135deg,#6967F5,#5044F5)}
+.hero{background:
+  radial-gradient(ellipse 49% 60% at 75% 42%,rgba(141,160,249,.22),transparent 72%),
+  radial-gradient(ellipse 37% 38% at 21% 0%,rgba(207,221,255,.62),transparent 79%),
+  linear-gradient(180deg,#F8FAFF,#F3F6FF)
+}
+.privacy-summary,.terms-summary{background:linear-gradient(125deg,#E6ECFF,#F5F7FF);border-color:#DCE4FC}
+.support-icon{background:#E2E8FF;color:#6967F5}
+.support-action{background:linear-gradient(110deg,#6967F5,#5044F5)}
+.feature-icon{background:#E2E8FF;color:#6967F5}
+@media(max-width:1020px) {
+  .site-header .nav{flex-wrap:wrap;row-gap:8px;padding-block:12px}
+  .site-header .nav-links{gap:16px}
+}
+@media(max-width:760px) {
+  .brand-mark,.brand-mark img{width:38px;height:38px;border-radius:12px}
+  .showcase-app-logo{width:75px;height:75px;min-width:75px;border-radius:20px}
+}
+@media(max-width:520px) {
+  .site-header .nav{gap:10px}
+  .site-header .brand{flex:1 1 auto}
+  .site-header .nav-links{
+    order:3;width:100%;display:flex;
+    justify-content:flex-start;flex-wrap:wrap;
+    border-top:1px solid #E6EBF7;
+    padding-top:10px;margin:0;
+    gap:12px 18px;
+  }
+  .site-header .nav-links a{font-size:12px}
+  .site-header .locale{max-width:124px;margin-left:auto}
+}
