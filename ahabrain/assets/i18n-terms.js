@@ -110,3 +110,31 @@ window.AhaBrainI18n={
     "pageTitle": "이용약관 — AhaBrain"
   }
 };
+
+
+/* Additional introductory copy for the accessible agreement layout. */
+Object.assign(window.AhaBrainI18n["zh-CN"], {
+  termsEyebrow: "AHABRAIN · 使用须知",
+  termsIntro: "这里说明应用使用、训练记录及会员购买的基本规则，方便你随时查阅。",
+  termsSummary: "游戏成绩与成长指标用于娱乐及个人记录；会员购买、续订与付款通过 Apple 管理。"
+});
+Object.assign(window.AhaBrainI18n["zh-TW"], {
+  termsEyebrow: "AHABRAIN · 使用須知",
+  termsIntro: "這裡說明應用使用、訓練紀錄與會員購買的基本規則，方便你隨時查閱。",
+  termsSummary: "遊戲成績與成長指標僅供娛樂與個人紀錄；會員購買、續訂和付款透過 Apple 管理。"
+});
+Object.assign(window.AhaBrainI18n["en"], {
+  termsEyebrow: "AHABRAIN · TERMS",
+  termsIntro: "Review the essentials of using the app, storing practice history, and purchasing a membership.",
+  termsSummary: "Scores and progress metrics are for entertainment and personal tracking. Apple manages membership purchases, renewals, and payments."
+});
+Object.assign(window.AhaBrainI18n["ja"], {
+  termsEyebrow: "AHABRAIN · ご利用案内",
+  termsIntro: "アプリの利用、練習記録、会員プランの購入に関する基本事項をご確認いただけます。",
+  termsSummary: "ゲームのスコアと成長指標は娯楽や個人の記録を目的としています。会員購入、更新、お支払いはAppleが管理します。"
+});
+Object.assign(window.AhaBrainI18n["ko"], {
+  termsEyebrow: "AHABRAIN · 이용 안내",
+  termsIntro: "앱 이용, 훈련 기록 보관, 멤버십 구매에 대한 기본 내용을 확인할 수 있습니다.",
+  termsSummary: "게임 점수와 성장 지표는 오락 및 개인 기록을 위한 것입니다. 멤버십 구매, 갱신 및 결제는 Apple에서 관리합니다."
+});
