@@ -155,22 +155,112 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #6C6
 .terms-summary{display:flex;align-items:center;gap:13px;background:#ECF0FF;border:1px solid #E0E6FE;border-radius:20px;padding:20px 24px;margin-bottom:20px;color:#525F94;font-size:14px;line-height:1.8}
 .terms-summary::before{content:"✦";display:grid;place-items:center;flex:0 0 38px;height:38px;background:#DADEFF;color:#625CE3;border-radius:12px;font-size:20px}
 
-/* Legal content embedded within the app uses the native SwiftUI navigation chrome. */
-html.is-embedded .site-header,html.is-embedded .footer,html.is-embedded .legal-side{display:none}
-html.is-embedded body{background:#F3F6FF}
-html.is-embedded .container{width:min(650px,calc(100% - 36px))}
-html.is-embedded .legal-main{padding-bottom:35px}
-html.is-embedded .legal-main .page-head{padding:16px 0 13px}
-html.is-embedded .legal-main .page-head .kicker,html.is-embedded .legal-main .page-head h1{display:none}
-html.is-embedded .legal-main .page-head p{font-size:14px;line-height:1.75}
-html.is-embedded .privacy-summary{padding:18px 19px;border-radius:20px;margin-bottom:16px}
-html.is-embedded .privacy-summary h2{font-size:18px}
-html.is-embedded .legal-grid{grid-template-columns:1fr}
-html.is-embedded .legal-article{padding:22px 20px}
-html.is-embedded .document-toc{overflow:auto;flex-wrap:nowrap;padding:0 0 5px;margin-bottom:15px;scrollbar-width:none}
-html.is-embedded .document-toc::-webkit-scrollbar{display:none}
-html.is-embedded .document-toc a{white-space:nowrap}
-html.is-embedded .legal-article section p{font-size:14px;line-height:1.92}
+/* App-only legal reader. The public website remains unchanged without ?embed=1.
+   The native SwiftUI navigation already supplies the page title and Back action. */
+html.is-embedded{
+  background:#F3F6FF;
+  overflow-x:hidden;
+}
+html.is-embedded body{
+  background:#F3F6FF;
+  color:#29316C;
+  overflow-x:hidden;
+}
+html.is-embedded .site-header,
+html.is-embedded .footer,
+html.is-embedded .skip,
+html.is-embedded .legal-side,
+html.is-embedded .privacy-summary,
+html.is-embedded .terms-summary,
+html.is-embedded .document-toc,
+html.is-embedded .legal-main .page-head .kicker,
+html.is-embedded .legal-main .page-head h1,
+html.is-embedded .legal-main .page-head p:not(.legal-date){
+  display:none!important;
+}
+html.is-embedded .container{
+  width:min(680px,calc(100% - 40px));
+}
+html.is-embedded .legal-main{
+  padding:16px 0 52px;
+}
+html.is-embedded .legal-main .page-head{
+  padding:0;
+  margin:0;
+  max-width:none;
+  text-align:left;
+}
+html.is-embedded .legal-main .page-head .legal-date{
+  margin:0 0 20px!important;
+  font-size:12px!important;
+  line-height:1.5;
+  color:#818CAC!important;
+}
+html.is-embedded .legal-grid{
+  display:block;
+  width:100%;
+}
+html.is-embedded .legal-article.panel{
+  min-width:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  background:transparent;
+}
+html.is-embedded .legal-article section{
+  min-width:0;
+  scroll-margin-top:18px;
+}
+html.is-embedded .legal-article section+section{
+  border-top:1px solid #E0E6F3;
+  padding-top:24px;
+  margin-top:24px;
+}
+html.is-embedded .legal-article section h2{
+  color:#2B356D;
+  font-size:18px;
+  font-weight:720;
+  line-height:1.45;
+  letter-spacing:-.025em;
+  margin:0 0 12px;
+}
+html.is-embedded .legal-article section h3{
+  color:#384274;
+  font-size:16px;
+  line-height:1.5;
+  margin:20px 0 8px;
+}
+html.is-embedded .legal-article section p{
+  color:#515C7F;
+  font-size:15px;
+  line-height:1.86;
+  overflow-wrap:anywhere;
+}
+html.is-embedded .legal-article section p+p{
+  margin-top:12px;
+}
+html.is-embedded .legal-article a{
+  color:#5758E7;
+  text-underline-offset:3px;
+  overflow-wrap:anywhere;
+}
+html.is-embedded .legal-contact{
+  margin-top:28px;
+  padding:20px;
+  border:1px solid #DCE3F8;
+  border-radius:16px;
+  background:#E9EDFC;
+  box-shadow:none;
+}
+html.is-embedded .legal-contact h3{
+  color:#29316C;
+  font-size:17px;
+}
+html.is-embedded .legal-contact .support-email{
+  font-size:14px;
+  overflow-wrap:anywhere;
+}
 
 @media(max-width:920px){
   .hero-inner{gap:29px}
