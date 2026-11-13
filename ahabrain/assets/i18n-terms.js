@@ -19,7 +19,10 @@ window.AhaBrainI18n={
     "appleTerms": "Apple 标准使用条款（EULA）",
     "relatedTitle": "相关链接",
     "footerHome": "返回官网",
-    "pageTitle": "用户协议 — AhaBrain"
+    "pageTitle": "用户协议 — AhaBrain",
+    "termsEyebrow": "AHABRAIN · 使用须知",
+    "termsIntro": "这里说明应用使用、训练记录及会员购买的基本规则，方便你随时查阅。",
+    "termsSummary": "游戏成绩与成长指标用于娱乐及个人记录；会员购买、续订与付款通过 Apple 管理。"
   },
   "en": {
     "brandSub": "Brain Training",
@@ -41,7 +44,10 @@ window.AhaBrainI18n={
     "appleTerms": "Apple Standard Terms of Use (EULA)",
     "relatedTitle": "Related links",
     "footerHome": "Official Website",
-    "pageTitle": "User Agreement — AhaBrain"
+    "pageTitle": "User Agreement — AhaBrain",
+    "termsEyebrow": "AHABRAIN · TERMS",
+    "termsIntro": "Review the essentials of using the app, storing practice history, and purchasing a membership.",
+    "termsSummary": "Scores and progress metrics are for entertainment and personal tracking. Apple manages membership purchases, renewals, and payments."
   },
   "zh-TW": {
     "brandSub": "靈光大腦",
@@ -63,7 +69,10 @@ window.AhaBrainI18n={
     "appleTerms": "Apple 標準使用條款（EULA）",
     "relatedTitle": "相關連結",
     "footerHome": "返回官網",
-    "pageTitle": "使用者協議 — AhaBrain"
+    "pageTitle": "使用者協議 — AhaBrain",
+    "termsEyebrow": "AHABRAIN · 使用須知",
+    "termsIntro": "這裡說明應用使用、訓練紀錄與會員購買的基本規則，方便你隨時查閱。",
+    "termsSummary": "遊戲成績與成長指標僅供娛樂與個人紀錄；會員購買、續訂和付款透過 Apple 管理。"
   },
   "ja": {
     "brandSub": "脳トレ",
@@ -85,7 +94,10 @@ window.AhaBrainI18n={
     "appleTerms": "Apple標準利用規約（EULA）",
     "relatedTitle": "関連リンク",
     "footerHome": "公式サイトへ",
-    "pageTitle": "利用規約 — AhaBrain"
+    "pageTitle": "利用規約 — AhaBrain",
+    "termsEyebrow": "AHABRAIN · ご利用案内",
+    "termsIntro": "アプリの利用、練習記録、会員プランの購入に関する基本事項をご確認いただけます。",
+    "termsSummary": "ゲームのスコアと成長指標は娯楽や個人の記録を目的としています。会員購入、更新、お支払いはAppleが管理します。"
   },
   "ko": {
     "brandSub": "두뇌 훈련",
@@ -107,6 +119,9 @@ window.AhaBrainI18n={
     "appleTerms": "Apple 표준 사용 약관(EULA)",
     "relatedTitle": "관련 링크",
     "footerHome": "공식 웹사이트",
-    "pageTitle": "이용약관 — AhaBrain"
+    "pageTitle": "이용약관 — AhaBrain",
+    "termsEyebrow": "AHABRAIN · 이용 안내",
+    "termsIntro": "앱 이용, 훈련 기록 보관, 멤버십 구매에 대한 기본 내용을 확인할 수 있습니다.",
+    "termsSummary": "게임 점수와 성장 지표는 오락 및 개인 기록을 위한 것입니다. 멤버십 구매, 갱신 및 결제는 Apple에서 관리합니다."
   }
 };

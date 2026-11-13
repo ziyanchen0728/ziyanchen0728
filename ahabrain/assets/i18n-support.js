@@ -32,7 +32,8 @@ window.AhaBrainI18n={
     "legalTitle": "购买与使用信息",
     "legalDesc": "月度和年度会员为自动续期订阅，永久会员为一次性非消耗型购买。具体商品内容、价格、试用与续费条件以 App 内实际购买页面以及 Apple 支付确认界面为准。",
     "termsLink": "Apple 标准使用条款（EULA）",
-    "privacyLink": "隐私政策"
+    "privacyLink": "隐私政策",
+    "agreementLink": "用户协议"
   },
   "zh-TW": {
     "brandSub": "靈光大腦",
@@ -67,7 +68,8 @@ window.AhaBrainI18n={
     "legalTitle": "購買與使用資訊",
     "legalDesc": "月度和年度會員為自動續訂，終身會員為一次性非消耗型購買。商品內容、價格、試用與續訂條件以 App 的購買畫面及 Apple 付款確認畫面為準。",
     "termsLink": "Apple 標準使用條款（EULA）",
-    "privacyLink": "隱私權政策"
+    "privacyLink": "隱私權政策",
+    "agreementLink": "使用者協議"
   },
   "en": {
     "brandSub": "Brain Training",
@@ -102,7 +104,8 @@ window.AhaBrainI18n={
     "legalTitle": "Purchase & Usage Information",
     "legalDesc": "Monthly and annual memberships are auto-renewing subscriptions. Lifetime membership is a one-time, non-consumable purchase. Product features, prices, trials, and renewal terms are shown in the app and Apple's purchase confirmation.",
     "termsLink": "Apple Standard Terms of Use (EULA)",
-    "privacyLink": "Privacy Policy"
+    "privacyLink": "Privacy Policy",
+    "agreementLink": "User Agreement"
   },
   "ja": {
     "brandSub": "脳トレ",
@@ -137,7 +140,8 @@ window.AhaBrainI18n={
     "legalTitle": "購入と利用について",
     "legalDesc": "月額・年額メンバーシップは自動更新サブスクリプション、永久メンバーシップは買い切り型の非消耗型商品です。内容、価格、トライアル、更新条件はアプリ内の購入画面とAppleの決済確認画面をご確認ください。",
     "termsLink": "Apple標準利用規約（EULA）",
-    "privacyLink": "プライバシーポリシー"
+    "privacyLink": "プライバシーポリシー",
+    "agreementLink": "利用規約"
   },
   "ko": {
     "brandSub": "두뇌 훈련",
@@ -172,6 +176,7 @@ window.AhaBrainI18n={
     "legalTitle": "구매 및 이용 안내",
     "legalDesc": "월간 및 연간 멤버십은 자동 갱신 구독이며, 평생 멤버십은 일회성 비소모성 구매입니다. 상품 구성, 가격, 체험 및 갱신 조건은 앱 내 구매 화면과 Apple 결제 확인 화면을 기준으로 합니다.",
     "termsLink": "Apple 표준 사용 약관(EULA)",
-    "privacyLink": "개인정보 처리방침"
+    "privacyLink": "개인정보 처리방침",
+    "agreementLink": "이용약관"
   }
 };

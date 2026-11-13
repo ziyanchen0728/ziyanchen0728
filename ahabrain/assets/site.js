@@ -1,4 +1,8 @@
 (function(){ "use strict";
+  // Native app supplies its own navigation bar; keep browser pages fully navigable.
+  const params = new URLSearchParams(location.search);
+  document.documentElement.classList.toggle("is-embedded", params.get("embed") === "1");
+
   const dict = window.AhaBrainI18n || {};
   const picker = document.getElementById("locale");
   const supported = Object.keys(dict);
@@ -33,8 +37,25 @@
       url.searchParams.set("lang", lang);
       link.setAttribute("href", url.pathname + url.search + url.hash);
     });
+    populateDocumentToc();
     picker.value = lang;
     try { localStorage.setItem("ahabrain.website.locale", lang); } catch (_) {}
+  }
+
+  function populateDocumentToc() {
+    const nav = document.querySelector("[data-doc-toc]");
+    if (!nav) return;
+    nav.replaceChildren();
+    document.querySelectorAll(".legal-article section[id] > h2").forEach((heading, index) => {
+      const anchor = document.createElement("a");
+      anchor.href = "#" + heading.parentElement.id;
+      const number = document.createElement("span");
+      number.className = "toc-number";
+      number.textContent = String(index + 1).padStart(2, "0");
+      const title = heading.textContent.trim().replace(/^[0-9]+[.] +/, "");
+      anchor.append(number, document.createTextNode(title));
+      nav.appendChild(anchor);
+    });
   }
   const start = query || saved || choose(browser);
   apply(start);
