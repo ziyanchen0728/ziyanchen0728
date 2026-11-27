@@ -6,6 +6,7 @@ This branch (`websites`) is the **only GitHub Pages publishing source** for this
 
 | App | Directory | Homepage | Support | Privacy | Terms |
 | --- | --- | --- | --- | --- | --- |
+| FinMunk / 花栗记账 | [`finmunk/`](./finmunk/) | [Homepage](./finmunk/index.html) | [Support](./finmunk/support.html) | [Privacy policy](./finmunk/privacy.html) | [Terms](./finmunk/terms.html) |
 | 灵光大脑 / AhaBrain | [`ahabrain/`](./ahabrain/) | [Homepage](./ahabrain/index.html) | [Support](./ahabrain/support.html) | [Privacy policy](./ahabrain/privacy.html) | [User agreement](./ahabrain/terms.html) |
 
 AhaBrain supports 简体中文、繁體中文、English、日本語、한국어 through a website language selector.
@@ -41,3 +42,5 @@ The project site will normally be available at:
 - The AhaBrain support page now provides direct email contact, using the developer contact address already published on the owner's other public websites. Confirm that the mailbox is actively monitored before submitting an App Store version.
 - A five-language privacy policy is provided at `ahabrain/privacy.html`, drafted from a source review of local game history, nickname/avatar, local notifications, optional legacy step access, StoreKit, and support email. **Before publishing the app, verify that the signed release build and App Store privacy disclosures match the policy, including all embedded third-party SDKs.**
 - This site does not assert medical or clinically proven cognitive benefits.
+
+FinMunk pages support 简体中文、繁體中文、English、日本語、한국어、Français using `?lang=zh-Hans`, `zh-Hant`, `en`, `ja`, `ko` or `fr`. The policy documents local storage, optional Apple sign-in, region-limited DeepSeek requests, speech, exports and email support.
